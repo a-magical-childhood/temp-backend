@@ -1,0 +1,30 @@
+{
+  "name": "express_server",
+  "version": "1.0.0",
+  "description": "a simple express server",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madisonstehle/express_server.git"
+  },
+  "author": "Madison Stehle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madisonstehle/express_server/issues"
+  },
+  "homepage": "https://github.com/madisonstehle/express_server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
