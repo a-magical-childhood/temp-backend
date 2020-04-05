@@ -4,8 +4,11 @@
 
 #### Links and Resources
 - [submission PR](https://github.com/madisonstehle/express_server/pull/1)
-- [ci/cd]() (GitHub Actions)
-- [heroku]()
+- [ci/cd](https://github.com/madisonstehle/express_server/actions) (GitHub Actions)
+- [heroku](https://express-server-madisonstehle.herokuapp.com/)
+
+#### Documentation
+- `node ./docs/swagger.js`: [browser link](http://localhost:3001/api-docs)
 
 #### Setup
 - Run Server: `npm start`
