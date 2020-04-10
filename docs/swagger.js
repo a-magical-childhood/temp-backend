@@ -1,29 +1,34 @@
-const express = require('express');
-const app = express();
-const expressSwagger = require('express-swagger-generator')(app);
+// const express = require('express');
+// const app = express();
 
-let options = {
-    swaggerDefinition: {
-        info: {
-            description: 'Simple express-server using CRUD operations',
-            title: 'express-server',
-            version: '1.0.0',
-        },
-        host: 'localhost:3000',
-        basePath: '/',
-        produces: [ 'application/json', 'text/html' ],
-        schemes: ['http', 'https'],
-		securityDefinitions: {
-            JWT: {
-                type: 'apiKey',
-                in: 'header',
-                name: 'Authorization',
-                description: "",
+const generateSwagger = (app) => { 
+    const expressSwagger = require('express-swagger-generator')(app);
+
+    let options = {
+        swaggerDefinition: {
+            info: {
+                description: 'Simple express-server using CRUD operations',
+                title: 'express-server',
+                version: '1.0.0',
+            },
+            host: 'localhost:3000',
+            basePath: '/',
+            produces: [ 'application/json', 'text/html' ],
+            schemes: ['http', 'https'],
+            securityDefinitions: {
+                JWT: {
+                    type: 'apiKey',
+                    in: 'header',
+                    name: 'Authorization',
+                    description: "",
+                }
             }
-        }
-    },
-    basedir: __dirname, //app absolute path
-    files: ['../lib/server.js'] //Path to the API handle folder
+        },
+        basedir: __dirname, //app absolute path
+        files: ['../lib/server.js', '../lib/routes/*'] //Path to the API handle folder
+    };
+
+    expressSwagger(options);
 };
-expressSwagger(options)
-app.listen(3001);
+
+module.exports = generateSwagger;
