@@ -1,5 +1,10 @@
 'use strict';
 
-const app = require('./lib/server.js');
+require('dotenv').config();
 
-app.start(process.env.PORT || 3000);
+const app = require('./lib/server.js');
+const port = process.env.PORT;
+const mongodb = process.env.MONGODB_URI;
+
+
+app.start(port, mongodb);

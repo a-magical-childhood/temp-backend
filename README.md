@@ -3,7 +3,7 @@
 ### Author: Madison Stehle
 
 #### Links and Resources
-- [submission PR](https://github.com/madisonstehle/express_server/pull/1)
+- [submission PR](https://github.com/madisonstehle/express_server/pull/2)
 - [ci/cd](https://github.com/madisonstehle/express_server/actions) (GitHub Actions)
 - [heroku deployment](https://express-server-madisonstehle.herokuapp.com/)
 
