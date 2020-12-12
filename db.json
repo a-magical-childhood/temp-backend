@@ -1,38 +1,20 @@
 {
-  "categories": [
+  "creatures": [
     {
       "id": 1,
-      "name": "book",
-      "display_name": "Book",
-      "description": "a magical doorway to a world of adventure and possibility"
+      "creature_name": "",
+      "latitude": 42,
+      "longitude": -122,
+      "description": "",
+      "explorer": ""
     },
     {
       "id": 2,
-      "name": "coffee",
-      "display_name": "Coffee",
-      "description": "a life-giving liquid that is more pleasant to drink rather than intake by intravenous solution"
-    },
-    {
-      "name": "mug",
-      "display_name": "Mug",
-      "description": "A comforting recepticle for holding various beverages to drink, but mostly for holding the coffee beverage",
-      "id": 3
-    }
-  ],
-  "products": [
-    {
-      "id": 1,
-      "category": "book",
-      "name": "milk_and_vine",
-      "display_name": "Milk and Vine: Inspirational Quotes From Classic Vines",
-      "description": "Parodying the popular poetry book Milk and Honey, Milk and Vine beautifully portrays the best vines of all time in this modern poetic format. Milk and Vine is truly a delight for the sensations, bringing back the riveting quotes we all laughed at together as a united internet community."
-    },
-    {
-      "id": 2,
-      "category": "coffee",
-      "name": "death_wish",
-      "display_name": "Death Wish Coffee Beans",
-      "description": "Death Wish Coffee, the world’s strongest coffee, is crafted with carefully selected, perfectly roasted coffee beans to produce a dark, bold, highly caffeinated coffee blend. Our coffee has double the strength of your average cup of coffee without being bitter or acidic. Be on the top of your game every day with the clarity and focus that comes with a strong cup of coffee."
+      "creature_name": "",
+      "latitude": 42,
+      "longitude": -122,
+      "description": "",
+      "explorer": ""
     }
   ]
 }
