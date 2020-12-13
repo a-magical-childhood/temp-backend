@@ -2,19 +2,19 @@
   "creatures": [
     {
       "id": 1,
-      "creature_name": "",
+      "creature_name": "fairy",
       "latitude": 42,
       "longitude": -122,
-      "description": "",
-      "explorer": ""
+      "description": "oh my glob there is a fairy in the garden!",
+      "explorer": "fairy-finder extraordinaire"
     },
     {
       "id": 2,
-      "creature_name": "",
+      "creature_name": "dragon",
       "latitude": 42,
       "longitude": -122,
-      "description": "",
-      "explorer": ""
+      "description": "A dragon is sitting on their pile of gold!",
+      "explorer": "bilbo dragons"
     }
   ]
 }

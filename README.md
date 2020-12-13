@@ -1,11 +1,11 @@
 ## Creature Express Server
 
 #### Links and Resources
-- [heroku deployment](https://express-server-madisonstehle.herokuapp.com/)
+- [heroku deployment]()
 
 
 #### Documentation
-- `node ./docs/swagger.js`: [browser link](https://express-server-madisonstehle.herokuapp.com/api-docs)
+- `node ./docs/swagger.js`: [browser link]()
 
 
 #### Setup
